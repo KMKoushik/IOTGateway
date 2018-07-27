@@ -76,13 +76,7 @@ def on_hub_message(client, userdata, msg):
 if __name__ == '__main__':
     logging.info("========IOT GATEWAY PROGRAM=======")
     #os.system("sudo rfcomm bind hci0 98:D3:32:20:4F:B9 1") #use this line first time ....used to connnect with bluetooth
-    """server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.starttls()
-    server.login("koushikmohan1996@gmail.com", "umamohan")
-
-    msg = "Hi, am python!!! how are yu?"
-    server.sendmail("koushikmohan1996@gmail.com", "koushik@avesorg.com", msg)
-    server.quit()"""
+    
 
     #sch = sensor()
     #sch.start()
